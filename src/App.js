@@ -20,7 +20,8 @@ function App() {
 
   return (
     <div className="App">
-      <h1>hola</h1>
+      <h1>hola gente</h1>
+      <h1>como estan todos es mi primera pagina</h1>
       <h1>{api.respuesta}</h1>
     </div>
   );
