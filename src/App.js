@@ -8,8 +8,8 @@ function App() {
   useEffect(() => {
     async function consultaAPI(){
       const consulta = await axios({
-        url: 'https://backend-ciro.herokuapp.com/ttt',
         method: 'GET',
+        url: 'http://localhost:5000/ttt'
       });
       console.log(consulta);
       setApi(consulta.data);
