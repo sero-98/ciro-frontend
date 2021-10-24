@@ -9,7 +9,7 @@ function App() {
     async function consultaAPI(){
       const consulta = await axios({
         method: 'GET',
-        url: 'http://localhost:5000/ttt'
+        url: 'https://backend-ciro.herokuapp.com/ttt'
       });
       console.log(consulta);
       setApi(consulta.data);
